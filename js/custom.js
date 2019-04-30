@@ -218,9 +218,21 @@
       $('.owl-carousel').owlCarousel({
         autoplay:true,
 				loop:true,
-				autowidth:false,
+				autowidth:true,
 				items:7,
-				nav:true
+				nav:true,
+				responsiveClass:true,
+				responsive:{
+					0:{
+						items:2
+					},
+					200:{
+						items:2
+					},
+					600:{
+						items:3
+					}
+				}
       })
     });
 

@@ -31,13 +31,20 @@
     -moz-border-radius: 3px;
     border-radius: 3px;
   }
-.img1/* devant */
+  @media screen and (max-width: 640px){
+    h2{
+      color:red;
+    }
+    .mobile-hide{
+      display: none;
+    }
+  }
+/*   
+.img1
 {
   transform:  rotate( 10deg);
   z-index: 10;
-  float: left;
   right: -5%;
-  position: absolute;
   width: 60%;
   top: -5%;
 }
@@ -48,7 +55,7 @@
   right:  200px;
   width: 50%;
   position: absolute;
-}
+} */
 
 .imgs{display: block;}
 /* ===========================================================================
