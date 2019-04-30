@@ -48,7 +48,7 @@
 		if ( $(window).width() < 769 ) {
 			$('.navbar-nav li.nav-item.nl-simple').on('click', function() {				
 				$('#navbarSupportedContent').css("height", "1px").removeClass("in").addClass("collapse");
-				// $('#navbarSupportedContent').removeClass("show");				
+				$('#navbarSupportedContent').removeClass("show");				
 			});
 		}
 
@@ -214,7 +214,15 @@
 			    }
 			]
 		});	
-
+		$(document).ready(function(){
+      $('.owl-carousel').owlCarousel({
+        autoplay:true,
+				loop:true,
+				autowidth:false,
+				items:7,
+				nav:true
+      })
+    });
 
 		/*----------------------------------------------------*/
 		/*	Testimonials Rotator Slick Carousel

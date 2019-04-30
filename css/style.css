@@ -16,9 +16,24 @@
 /* ===========================================================================
   IMAGES
   =========================================================================== */ 
+  #owl-images .owl-item div{
+    /* padding:5px; */
+    margin: none;
+    padding: none;
+  }
+  #owl-images .owl-item img{
+    display: inline-block;
+    width: auto;
+    height: 60vh;
+    margin: none;
+    padding: none;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+  }
 .img1/* devant */
 {
-  transform:  rotate( 20deg);
+  transform:  rotate( 10deg);
   z-index: 10;
   float: left;
   right: -5%;
@@ -340,7 +355,9 @@ body {
 /*------------------------------------------*/
 
 h1, h2, h3, h4, h5, h6 {
-  color: #fff;
+  color: white;
+  font: outline;
+
   font-family: 'Noto Sans TC', sans-serif;
   font-weight: 700;
   letter-spacing: -0.5px;
@@ -362,9 +379,9 @@ h4.h4-xl { font-size: 2.125rem; }  /* 34px */
 
 /* Header H3 */
 h3.h3-xs { font-size: 2.375rem; }  /* 38px */
-h3.h3-sm { font-size: 2.5rem; }    /* 40px */
+h3.h3-sm { font-size: 2.5rem;display: inline;word-wrap: initial; }    /* 40px */
 h3.h3-md { font-size: 2.625rem; }  /* 42px */
-h3.h3-lg { font-size: 2.75rem; }   /* 44px */
+h3.h3-lg { font-size: 2.75rem;  text-shadow: 0.01em  0.01em 0.01em white; }   /* 44px */
 h3.h3-xl { font-size: 3rem; }      /* 48px */
 
 /* Header H2 */
@@ -910,7 +927,7 @@ span.id-color {
 }
 
 .section-title p {
-  color: #888;
+  color: white;
   padding: 0 15%;
   margin-top: 20px;
   margin-bottom: 0;
@@ -2846,11 +2863,17 @@ a.process-link:hover {
 
 .screenshots-wrap {
   position: relative;
+  border: 3px solid red;
+  align-self: center;
+  width: 120%;
+  margin: auto;
   margin-bottom: 100px;
+  height: 60vh;
 }
 
 .slick-slide {
   width: 298px;
+  /* height: 400px; */
 }
 
 .carousel-item {
@@ -2863,6 +2886,8 @@ a.process-link:hover {
   -o-transition: all 450ms ease-in-out;
   -ms-transition: all 450ms ease-in-out;
   transition: all 450ms ease-in-out;
+  width: 30%;
+  position: relative;
 }
 
 .carousel-item.slick-current {

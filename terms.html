@@ -1,10 +1,5 @@
 <!DOCTYPE html>
-<!--  - App Landing Page Template design by DSAThemes (http://www.dsathemes.com) -->
-<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
-<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
-<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!-->
-<html lang="en">
+<html lang="fr">
 
 
 
@@ -14,13 +9,13 @@
 
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-		<meta name="author" content="DSAThemes"/>	
-		<meta name="description" content=" - Mobile App Landing Page Template"/>
-		<meta name="keywords" content="Responsive, HTML5 template, DSAThemes, Mobile, Application, One Page, Landing, Mobile App">	
+		<meta name="author" content="Deserve Mi"/>	
+		<meta name="description" content="Site officiel Deserve Mi"/>
+		<meta name="keywords" content="Responsive, HTML5 template, Mobile, application, One Page, Landing, Mobile App">	
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 				
   		<!-- SITE TITLE -->
-		<title> - App Landing Page Template Terms</title>
+		<title>Deserve Mi</title>
 							
 		<!-- FAVICON AND TOUCH ICONS  -->
 		<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
@@ -54,13 +49,17 @@
 		<!-- TEMPLATE CSS -->
 		<link href="css/spinner.css" rel="stylesheet">
 		<link href="css/style.css" rel="stylesheet">
+		<link href="css/owl.carousel.css" rel="stylesheet">
+		<link href="css/owl.theme.default.css" rel="stylesheet">
 
 		<!-- RESPONSIVE CSS -->
 		<link href="css/responsive.css" rel="stylesheet"> 
 
-		
-
+		<!-- OWL JAVASCRIPT -->
+		<script src="js/owl.animate.js"></script>
+		<script src="js/owl.carousel.js"></script>
 	</head>
+
 
 
 
@@ -86,66 +85,62 @@
 
 
 
+	
 			<!-- HEADER
 			============================================= -->
 			<header id="header" class="header">
-				<nav class="navbar fixed-top navbar-expand-md hover-menu navbar-dark bg-tra white-scroll">
-					<div class="container">
-
-
-						<!-- LOGO IMAGE -->
-						<!-- For Retina Ready displays take a image with double the amount of pixels that your image will be displayed (e.g 240 x 60 pixels) -->
-				 		<a href="index.html" class="navbar-brand logo-black"><img src="images/logo.png" width="120" height="30" alt="header-logo"></a>
-				 		<a href="index.html" class="navbar-brand logo-white"><img src="images/logo-white.png" width="120" height="30" alt="header-logo"></a>
-
-
-				 		<!-- Responsive Menu Button -->
-				 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
-				   		 	<span class="navbar-bar-icon"><i class="fas fa-bars"></i></span>
-				  		</button>
-
-
-				  		<!-- Navigation Menu -->
-				  		<div id="navbarContent" class="collapse navbar-collapse">				  			
-					   		<ul class="navbar-nav ml-auto">
-
-					     		<!-- Dropdown Link -->
-                      			<li class="nav-item dropdown">
-		                            <a class="nav-link dropdown-toggle" href="#" id="DropdownMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-		                                About
-		                            </a>
-
-		                            <!-- Dropdown Menu -->
-                           			<ul class="dropdown-menu" aria-labelledby="DropdownMenu">
-                           				<li><a class="dropdown-item" href="demo-1.html#statistic-1">Why </a></li>
-		                                <li><a class="dropdown-item" href="demo-1.html#process-3">How It Works</a></li>
-		                                <li><a class="dropdown-item" href="demo-1.html#info-11">Best Solutions</a></li>
-		                                <li><a class="dropdown-item" href="demo-1.html#screens-1">Screenshots</a></li>
-		                                <li><a class="dropdown-item" href="demo-1.html#more-apps">More Apps</a></li>
-                            		</ul>
-                        		</li>
-
-					     		<li class="nav-item nl-simple"><a class="nav-link" href="demo-1.html#features-2">Features</a></li>
-					     		<li class="nav-item nl-simple"><a class="nav-link" href="pricing.html">Pricing</a></li>
-							    <li class="nav-item nl-simple"><a class="nav-link" href="faqs.html">Support</a></li>
-							    <li class="nav-item nl-simple"><a class="nav-link" href="blog-listing.html">Blog</a></li>
-							    <li class="nav-item nl-simple"><a class="nav-link" href="contacts.html">Contact</a></li>
-
-					      	</ul>
-
-					      	<!-- Header Button 	
-					      	<span class="navbar-text white-color">						      															
-								<a href="#" class="btn btn-blue black-hover">Try For Free</a>
-							</span>	-->
-
-					    </div>	<!-- End Navigation Menu -->
-
-
-					</div>	  <!-- End container -->
-				</nav>	   <!-- End navbar -->
-			</header>	<!-- END HEADER -->
-
-
+					<nav class="navbar fixed-top navbar-expand-md hover-menu navbar-dark bg-tra white-scroll">
+						<div class="container">
+	
+							<div class="clearfix container">
+	
+								<!-- LOGO IMAGE -->
+								<!-- For Retina Ready displays take a image with double the amount of pixels that your image will be displayed (e.g 240 x 60 pixels) -->
+								<a href="#hero-1" class="navbar-brand logo-black float-left"><img src="images/logo.png" alt="header-logo"></a>
+								<a href="#hero-1" class="navbar-brand logo-white float-left"><img src="images/logo.png" alt="header-logo"></a>
+								   <h5 class="title scroll white-scroll float-left">Deserve MI</h5>
+							</div>
+	
+							 <!-- Responsive Menu Button -->
+							 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+									<span class="navbar-bar-icon"><i class="fas fa-bars"></i></span>
+							  </button>
+	
+	
+							  <!-- Navigation Menu -->
+							  <div id="navbarContent" class="collapse navbar-collapse">				  			
+								   <ul class="navbar-nav ml-auto">
+									 <li class="nav-item nl-simple"><a class="nav-link" href="#screens-1">Screenshots</a></li>	
+									 <li class="nav-item nl-simple"><a class="nav-link" href="#pricing-1">Tarifs</a></li>
+									 <li class="nav-item nl-simple"><a class="nav-link" href="#faqs-1">FAQs</a></li>					     								    
+	
+									<!-- AppStore Badge  -->
+									<li class="nav-item">
+										<a href="#" class="header-store">
+											<img class="appstore-header" src="images/store_badges/appstore.png" alt="appstore-logo">
+										</a>
+									</li> 
+																
+									<!-- Google Play Badge -->
+									<li class="nav-item">
+										<a href="#" class="header-store">
+											<img class="googleplay-header" src="images/store_badges/googleplay.png" alt="googleplay-logo">
+										</a>
+									</li> 
+	
+								  </ul>
+	
+							
+	
+							</div>	<!-- End Navigation Menu -->
+	
+	
+						</div>	  <!-- End container -->
+					</nav>	   <!-- End navbar -->
+				</header>	<!-- END HEADER -->
+	
+	
+	
 
 
 			<!-- REVIEWS PAGE HERO
@@ -165,8 +160,8 @@
 						<div class="col">
 							<nav aria-label="breadcrumb">
 							  	<ol class="breadcrumb">
-							    	<li class="breadcrumb-item"><a href="demo-1.html">Home</a></li>
-							    	<li class="breadcrumb-item active" aria-current="page">Terms & Privacy</li>
+							    	<li class="breadcrumb-item"><a href="index.html">Accueil</a></li>
+							    	<li class="breadcrumb-item active" aria-current="page">Conditions d'utilisation</li>
 							  	</ol>
 							</nav>
 						</div> 
@@ -196,68 +191,26 @@
 								<div class="terms-title">
 
 									<!-- Text -->
-									<p class="grey-color">Last Updated: February 12, 2019</p>
+									<p class="grey-color">Dernière mise à jour avril 2019</p>
 
-									<!-- Text -->
-									<p class="p-notice">PLEASE READ THESE SERVICE TERMS AND CONDITIONS (THE ‘AGREEMENT’) IN THEIR ENTIRETY
-									    BEFORE USING OR RECEIVING ANY SERVICES (AS   DEFINED BELOW) FROM ALLFIXER REPAIR SERVICE, INC. (THE ‘COMPANY’).
-									</p>	
+									<h2>VEUILLEZ LIRE CES CONDITIONS D'UTILISATION DANS LEUR TOTALITE AVANT TOUTE UTILISATION.</h2>
+									
+									<ul class="terms-list">
 
-									<!-- Text -->
-									<p>Praesent aliquet lorem purus, quis mollis nisi laoreet vitae. Mauris nec consequat tortor. Duis
-									   fermentum a massa in convallis. Quisque eu ultrices enim, et interdum augue.
-									</p>
-
+										<li>Deserve MI est une application mobile de mise en relation et rencontre destinée aux adultes (Ci-après « l’application »).</li>
+										
+										<li>Deserve MI est un service fourni par la société Deserve MI, titulaire de la marque Deserve MI, ayant son siège social 
+											3 avenue du Mont Alban 06300 Nice, RCS 831 039 235.</li>
+										
+										<li>Les présentes conditions générales régissent l’inscription à l’application et son utilisation.</li>
+										<li> L’inscription à l’application s’effectue exclusivement sur application mobile.</li>
+										<li> Le fait pour le membre de remplir le formulaire d’inscription figurant sur l’application mobile et de confirmer son 
+											inscription en appuyant sur le bouton de validation et d’acceptation des conditions générales implique son acceptation 
+											pleine et entière des présentes conditions d’utilisation, lesquelles seront seules applicables au contrat ainsi conclu.</li>
+										<!-- Text -->
+									</ul>
+									
 								</div>
-
-								<!-- Text -->
-								<p>Nunc gravida ultrices felis eget faucibus. Praesent aliquet lorem purus, quis mollis nisi laoreet vitae. Mauris
-								   nec consequat tortor. 							   
-								</p>
-
-								<!-- List -->
-								<ul class="terms-list">
-											
-									<li>Vivamus pretium tellus eget mi mattis, ut accumsan nunc vehicula. Donec mattis ex et aliquam aliquam.
-									    Maecenas at luctus augue. Donec nec leo ac libero pretium tincidunt
-									</li>
-
-									<li>Aenean quis purus auctor, rhoncus est non, dictum arcu. Sed in maximus ex. Integer interdum sem eget
-									   justo maximus
-									</li>
-
-									<li>Donec dolor magna, suscipit in magna dignissim, porttitor hendrerit diam. Nunc gravida ultrices felis
-									  	eget faucibus. Praesent aliquet
-									</li>
-
-									<li>Aliquam varius neque commodo purus vulputate pharetra. Maecenas nisl leo, bibendum in ante id, ornare
-									    viverra metus. 
-									</li>
-
-									<li>Morbi dui lectus, lobortis sit amet felis nec, suscipit imperdiet sapien. Proin semper ultrices ex, a
-									    sodales purus vehicula 
-									</li>
-
-									<li>Nulla tincidunt volutpat tincidunt. Pellentesque habitant morbi tristique senectus et netus et malesuada fames</li>
-
-									<li>Donec dolor magna, suscipit in magna dignissim, porttitor hendrerit diam. Nunc gravida ultrices felis
-									  	eget faucibus. Praesent aliquet
-									</li>
-
-								</ul>
-
-								<!-- Text -->
-								<p class="p-notice">IF YOU DO NOT AGREE TO THE TERMS OF THIS AGREEMENT OR CANNOT MAKE ANY OF THE FOREGOING REPRESENTATIONS,
-								   YOU ARE NOT PERMITTED TO USE OR RECEIVE ANY SERVICES FROM THE COMPANY
-								</p>
-
-								<!-- Text -->
-								<p>Donec sodales, nibh vel tristique aliquet, nisi libero suscipit diam, sed tempus ante nulla ut purus.
-								   Donec dolor magna, suscipit in magna dignissim, porttitor hendrerit diam. Nunc gravida ultrices felis
-								   eget faucibus. Praesent aliquet lorem purus, quis mollis nisi laoreet vitae. Mauris nec consequat tortor. 
-								   Duis fermentum a massa in convallis. Quisque eu ultrices enim, et interdum augue.
-								</p>
-
 							</div>
 
 
@@ -265,158 +218,132 @@
 							<div class="terms-box">
 
 								<!-- Title -->
-								<h5 class="h5-xl">1. Eligibility</h5>
-								
-								<!-- Text -->
-								<p>Donec sodales, nibh vel tristique aliquet, nisi libero suscipit diam, sed tempus ante nulla ut purus.
-								   Donec dolor magna, suscipit in magna dignissim, porttitor hendrerit diam. Nunc gravida ultrices felis
-								   eget faucibus. Praesent aliquet lorem purus, quis mollis nisi laoreet vitae. Mauris nec consequat tortor. 
-								   Duis fermentum a massa in convallis. Quisque eu ultrices enim, et interdum augue.
-								</p>
+								<h3 class="h3-sm">Article 1 : Modalités d’inscription à l’application</h3>
 
 								<!-- List -->
 								<ul class="terms-list">
-									
 
-									<li>Aenean quis purus auctor, rhoncus est non, dictum arcu. Sed in maximus ex. Integer interdum sem eget
-									   justo maximus
+									<li>Le membre désigne la personne physique majeure qui ouvre un compte sur l’application.
 									</li>
 
-									<li>Donec dolor magna, suscipit in magna dignissim, porttitor hendrerit diam. Nunc gravida ultrices felis
-									  	eget faucibus. Praesent aliquet
-									</li>
+									<li>Pour devenir membre de Deserve MI, l’utilisateur doit garantir être majeur, remplir leformulaire d’ouverture de compte (fourniture des informations
+										 personnelles obligatoires),renseigner s’il le souhaite le questionnaire destiné à sa présentation sur l’application mobile 
+										 (le profile) et approuver les présentes conditions générales.</li>
 
-									<li>Morbi dui lectus, lobortis sit amet felis nec, suscipit imperdiet sapien. Proin semper ultrices ex, a
-									    sodales purus vehicula 
-									</li>
+									<li>Le profile peut être complété ou modifié après l’inscription.</li>
 
-									<li>Nulla tincidunt volutpat tincidunt. Pellentesque habitant morbi tristique senectus et netus et malesuada fames</li>
-
-									<li>Donec dolor magna, suscipit in magna dignissim, porttitor hendrerit diam. Nunc gravida ultrices felis
-									  	eget faucibus. Praesent aliquet
-									</li>
 
 								</ul>
 
 							</div>
 
 
-							<!-- TERMS BOX #2 -->
+							<!-- TERMS BOX #2-2.1 -->
 							<div class="terms-box">
 
 								<!-- Title -->
-								<h5 class="h5-xl">2. Collection of Information</h5>
-								
-								<!-- Text -->
-								<p>Nunc gravida ultrices felis eget faucibus. Praesent aliquet lorem purus, quis mollis nisi laoreet vitae.
-								   Mauris nec consequat tortor. Duis fermentum a massa in convallis. Quisque eu ultrices enim augue.
-								</p>
+								<h3 class="h3-sm">Article 2 : Caractère personnel de l’inscription et exactitude des informations fournies</h3><br>
+								<h5 class="h5-xl"> 2.1. Caractère personnel de l’inscription et de l’identifiant et du mot de passe</h5>
+							<!-- List -->
+							<ul class="terms-list">
+									
+
+									<li>L’adhésion est personnelle et nominative, elle ne peut être ni transférée, ni prêtée, ni échangée, à quelque tiers que ce soit.</li>
+
+									<li>Le mot de passe permettant au membre de se connecter à l’application et d’accéder aux services proposés est personnel et confidentiel. </li>
+
+									<li>En conséquence, le membre s’engage à le conserver secret et à ne pas le divulguer ou partager sous quelque forme que ce soit.</li>
+
+									<li>Le membre est seul responsable des accès faits sous ses identifiant et mot de passe. </li>
+									<li> En cas de perte ou d’utilisation non autorisée du mot de passe par un tiers, le membre est tenu d’en informer Deserve MI dans les plus brefs délais.</li>
+								</ul>
 
 							</div>
 
 
-							<!-- TERMS BOX #3 -->
+							<!-- TERMS BOX #2.2 -->
 							<div class="terms-box">
 
 								<!-- Title -->
-								<h5 class="h5-xl">3. Authorized User Accounts and Account Security</h5>
-								
-								<!-- Text -->
-								<p>Suscipit in magna dignissim, porttitor hendrerit diam. Nunc gravida ultrices felis eget faucibus.
-								   Praesent aliquet lorem purus, quis mollis nisi laoreet vitae. <a href="#">Mauris nec consequat tortor.</a>
-								   Duis fermentum a massa in convallis quisque eu  interdum augue.
-								</p>
-
-								<!-- Text -->
-								<p>Feugiat eros, ac tincidunt ligula massa in faucibus orci luctus et ultrices posuere cubilia curae.
-                                   An nullam tempor sapien, eget gravida donec enim ipsum porta justo integer at odio velna vitae
-								   auctor integer
-								</p>	
+								<h5 class="h5-xl">2.2 Exactitude des informations fournies</h5>
+								<ul class="terms-list">
+									<li>Le membre s’engage à tenir ses coordonnées personnelles à jour, et à fournir des renseignements exacts et sincères sur lui-même.</li>
+									<li> Il s’engage à mettre à jour sans délais les informations personnelles communiquées à Deserve MI pour s’inscrire à l’application.</li>
+								</ul>
 
 							</div>
 
 
-							<!-- TERMS BOX #4 -->
+							<!-- TERMS BOX #3-3.1 -->
 							<div class="terms-box">
 
-								<!-- Title -->
-								<h5 class="h5-xl">4. Prohibited Conduct and Content</h5>
+								<h3 class="h3-sm">Article 3 : Obligations et responsabilité du membre. </h3>
 								
-								<!-- Text -->
-								<p>Donec sodales, nibh vel tristique aliquet, nisi libero suscipit diam, sed tempus ante nulla ut purus.
-								   Donec dolor magna, suscipit in magna dignissim, porttitor hendrerit diam. Nunc gravida ultrices felis
-								</p>
+								<br>
+								<br>
+								<!-- Title -->
+								<h5 class="h5-xl">3.1 Obligations du membre</h5>
+								
+								<ul class="terms-list">
+									<li>En s’inscrivant au service Deserve MI, le membre autorise Deserve MI à diffuser sur l’application son profil, sa photographie et son annonce, à l’exclusion
+										 de ses nom, prénom, adresse, téléphone, adresse e-mail, mot de passe qui sont destinés à la seule gestion administrative du compte du membre par Deserve MI 
+										 et sont traités comme des informations confidentielles.</li>
+									<li>Le membre s’engage à ne pas diffuser d’annonces, de photographie ou de messages, sous quelque forme que ce soit : à caractère injurieux, diffamatoire, raciste,
+										 xénophobe, agressif, homophobe, obscène, pornographique et de manière générale à caractère illégal ou en violation des droits de tiers.</li>
+									<li>Le membre s’engage à respecter les droits d’autrui et notamment les droits d’auteur, les droits des marques, le droit à l’image.</li>
+									<li>Le membre s’engage à respecter la vie privée des autres membres, à agir avec courtoisie et respect à leur égard, et s’interdit tous actes de harcèlement,
+										 menace, propagande, usurpation d’identité.</li>
+									<li>Le membre s’interdit d’utiliser le service Deserve MI à des fins publicitaires et/ou commerciales. Le membre s’engage à ne pas utiliser le Service à des fins 
+										de racolage ou de prostitution.</li>
+									<li>Le membre s’engage à ne pas publier d’informations personnelles telles que nom, adresse, téléphone, adresse e-mail sur son profil.</li>
+								</ul>
 
 							</div>
 
 
-							<!-- TERMS BOX #5 -->
+							<!-- TERMS BOX #3.2 -->
 							<div class="terms-box">
 
 								<!-- Title -->
-								<h5 class="h5-xl">5. Your Responsibilities</h5>
-								
-								<!-- Text -->
-								<p>Donec sodales, nibh vel tristique aliquet, nisi libero suscipit diam, sed tempus ante nulla ut purus.
-								   Donec dolor magna, suscipit in magna dignissim, porttitor hendrerit diam. Nunc gravida ultrices felis
-								</p>
+								<h5 class="h5-xl">3.2. Responsabilités du membre</h5>
+							
 
 								<!-- List -->
 								<ul class="terms-list">
 									
-									<li>Donec dolor magna, suscipit in magna dignissim, porttitor hendrerit diam. Nunc gravida ultrices felis
-									  	eget faucibus. Praesent aliquet
-									</li>
+									<li>Le membre est seul responsable des informations communiquées en vue de l’établissement de son profil et/ou adressées aux autres membres.</li>
 
-									<li>Aliquam varius neque commodo purus vulputate pharetra. Maecenas nisl leo, bibendum in ante id, ornare
-									    viverra metus. 
-									</li>
+									<li>Le membre communique sous sa seule responsabilité ses coordonnées personnelles lors de ses rencontres avec les autres membres.</li>
 
-									<li>Morbi dui lectus, lobortis sit amet felis nec, suscipit imperdiet sapien. Proin semper ultrices ex, a
-									    sodales purus vehicula 
-									</li>
+									<li>Le membre est personnellement responsable de ses échanges avec les autres membres. A ce titre, le membre dégage Deserve MI de toute responsabilité concernant 
+										les conséquences des communications et rencontres effectuées par l’intermédiaire de l’application.</li>
 
-									<li>Nulla tincidunt volutpat tincidunt. Pellentesque habitant morbi tristique senectus et netus et malesuada fames</li>
-
-									<li>Donec dolor magna, suscipit in magna dignissim, porttitor hendrerit diam. Nunc gravida ultrices felis
-									  	eget faucibus. Praesent aliquet
-									</li>
+									<li>Le membre reconnaît et accepte de ne pouvoir invoquer la responsabilité de Deserve MI, pour tout dommage direct ou indirect lié à l’utilisation l’application 
+										ou à l’impossibilité de l’utiliser, notamment si son attitude a contribué à la réalisation du dit dommage, ou en cas de non- respect, même partiel, 
+										des présentes Conditions Générales d’Utilisation.</li>
 								  	
 								</ul>
-
-								<!-- Text -->
-								<p>Suscipit in magna dignissim, porttitor hendrerit diam. Nunc gravida ultrices felis eget faucibus.
-								   Praesent aliquet lorem purus, quis mollis nisi laoreet vitae. <a href="#">Mauris nec consequat tortor.</a>
-								   Duis fermentum a massa in convallis quisque eu  interdum augue.
-								</p>
-
 							</div>
 
 
 							<!-- TERMS BOX #6 -->
 							<div class="terms-box">
 
+								<h3 class="h3-sm">Article 4 : Droits et Obligations de Deserve MI. Limitation de responsabilité <br><br></h3>
 								<!-- Title -->
-								<h5 class="h5-xl">6. Availability Of Services</h5>
+								<h5 class="h5-xl">4.1. Droits de Deserve MI</h5>
 								
-								<!-- Text -->
-								<p><span>6.1 General Availability</span> Donec sodales, nibh vel tristique aliquet, nisi libero suscipit
-								   diam, sed tempus ante nulla ut purus. Donec dolor magna, suscipit in magna dignissim, porttitor hendrerit
-								   diam. Nunc gravida ultrices felis
-								</p>
+								<ul class="terms-list">
+									<li>Le membre est informé que son profil peut faire l’objet d’une modération et/ou d’un contrôle par Deserve MI et que les données qu’il transmet et son 
+										comportement peuvent faire l’objet d’un signalement par un autre membre.</li>
+									<li>Deserve MI se réserve le droit de supprimer tout contenu tel que photographie, annonce, de refuser une inscription et/ou des modifications du profil ou 
+										de suspendre un compte pour tout motif légitime notamment afin de garantir le sérieux de l'application, ou en cas de violation par un membre de la législation 
+										en vigueur ou des présentes Conditions Généralesd’Utilisation.</li>
+									<li>Deserve MI s’engage à respecter l’anonymat de ses membres et la confidentialité de leurs correspondances privées et à ne pas communiquer à un autre membre 
+										ses nom, prénom, adresse, téléphone, e-mail.</li>
+									<li>Deserve MI s’engage à mettre en œuvre les mesures techniques et administratives adaptées pour protéger les données personnelles fournies par les membres.</li>
+								</ul>
 
-								<!-- Text -->
-								<p><span>6.2 Restrictions and Suspensions</span> Suscipit in magna dignissim, porttitor hendrerit diam. Nunc
-								   gravida ultrices felis eget faucibus. Praesent aliquet lorem purus, quis mollis nisi laoreet vitae. Duis
-								   fermentum a massa in convallis quisque eu  interdum augue.
-								</p>
-
-								<!-- Text -->
-								<p><span>6.3 Scheduling</span> Morbi nulla lorem, vulputate et justo sed, tristique luctus purus. Etiam vitae
-								   interdum felis, at laoreet massa. Proin malesuada tellus vel dui laoreet facilisis. Nullam ac leo semper, 
-								   gravida nisi quis, blandit ligula. Aenean venenatis, velit sit amet malesuada tincidunt, orci erat mollis
-								   sem, sit amet semper eros dolor in metus.
-								</p>
 
 							</div>
 
@@ -425,12 +352,19 @@
 							<div class="terms-box">
 
 								<!-- Title -->
-								<h5 class="h5-xl">7. Prohibited Conduct and Content</h5>
+								<h5 class="h5-xl">4.2. Limitation de responsabilité de Deserve MI</h5>
 								
-								<!-- Text -->
-								<p>Donec sodales, nibh vel tristique aliquet, nisi libero suscipit diam, sed tempus ante nulla ut purus.
-								   Donec dolor magna, suscipit in magna dignissim, porttitor hendrerit diam. Nunc gravida ultrices felis
-								</p>
+								<ul class="terms-list">
+									<li>Le membre renseigne sous sa seule responsabilité les informations nécessaires à son inscription ainsi qu’à la constitution et à la mise à jour de son profil. 
+										Deserve MI a pour activité la fourniture de services de rencontre et d’échanges en ligne et n’a aucune obligation de vérifier l’identité réelle des membres
+										 qui s’inscrivent sur l’application et/ou de contrôler leurs informations personnelles ou profiles.</li>
+									<li>Deserve MI n’assume en conséquence aucune responsabilité sur l’exactitude des renseignements donnés par le membre et/ou son honorabilité. Il appartient au 
+										membre de prendre les précautions nécessaires lors d’une première rencontre physique avec un membre.</li>
+									<li>Deserve MI est tenu à une obligation de moyens : Deserve MI s’engage à mettre en œuvre les moyens nécessaires à la mise en relation entre les membres mais 
+										n’interfère pas dans les relations entre les membres, et n’encourt aucune responsabilité à ce titre. Les membres agissent sous leur seule et entière 
+										responsabilité lorsqu’ils se mettent en relation avec un autre membre.</li>
+
+								</ul>
 
 							</div>
 
@@ -439,58 +373,27 @@
 							<div class="terms-box">
 
 								<!-- Title -->
-								<h5 class="h5-xl">8. Warranty Limitations</h5>
-
-								<!-- Text -->
-								<p class="p-upper">Ut non mauris libero. Sed consequat posuere nunc, eu porttitor neque dignissim nec. 
-								   Donec bibendum sodales elit eu blandit. Suspendisse at finibus metus. Integer nulla quam, pulvinar 
-								   fermentum commodo nec, pulvinar sed nisi. Sed augue turpis, mollis a vehicula ornare, dapibus
-								</p>
-
-								<!-- Text -->
-								<p class="p-upper">Sed eu ex quis leo ultrices aliquet. Curabitur mauris orci, imperdiet eu dui quis, 
-								   ulvinar feugiat orci. Curabitur at ex quis ipsum volutpat vehicula id in ante. Proin in tortor nec 
-								   risus interdum tincidunt eget ac lectus. 
-								</p>
-								
-								<!-- Text -->
-								<p class="p-upper">Donec sodales, nibh vel tristique aliquet, nisi libero suscipit diam, sed tempus ante
-								   nulla ut purus. Donec dolor magna, suscipit in magna dignissim, porttitor hendrerit diam. Nunc gravida
-								   ultrices felis
-								</p>
-
+								<h5 class="h5-xl">4.3. Prestations et produits proposés par les Partenaires</h5>
+								<ul class="terms-list">
+									<li>Les prestations et produits proposés aux membres par les partenaires par l’intermédiaire de l’application sont sous la responsabilité des dits partenaires,
+										 à l’exclusion de celle de Deserve MI.</li>
+									<li> Deserve MI fournit une plateforme en vue de faciliter l’accès à des lieux partenaires, mais ne fournit pas les dites prestations, dont la fourniture relève 
+										des conditions générales des partenaires et de leur responsabilité.</li>
+								</ul>
 							</div>
 
 
 							<!-- TERMS BOX #9 -->
 							<div class="terms-box">
 
+								<h3 class="h3-sm">Article 5 : Services Payants. Modalités de paiement. Droit de rétractation</h3>
 								<!-- Title -->
-								<h5 class="h5-xl">9. Notices</h5>
-								
-								<!-- Text -->
-								<p>Donec sodales, nibh vel tristique aliquet, nisi libero suscipit diam, sed tempus ante nulla ut purus.
-								   Donec dolor magna, suscipit in magna dignissim, porttitor hendrerit diam. Nunc gravida ultrices felis
-								</p>
-
-								<!-- Text -->
-								<p><span>9.1 Nunc gravida ultrices felis</span> Donec sodales, nibh vel tristique aliquet, nisi libero suscipit
-								   diam, sed tempus ante nulla ut purus. Donec dolor magna, suscipit in magna dignissim, porttitor hendrerit
-								   diam. Nunc gravida ultrices felis
-								</p>
-
-								<!-- Text -->
-								<p><span>9.2 Aenean venenatis, velit sit amet</span> Suscipit in magna dignissim, porttitor hendrerit diam.
-								   Nunc gravida ultrices felis eget faucibus. Praesent aliquet lorem purus, quis mollis nisi laoreet vitae. 
-								   Duis fermentum a massa in convallis quisque eu  interdum augue.
-								</p>
-
-								<!-- Text -->
-								<p><span>9.3 Scheduling</span> Morbi nulla lorem, vulputate et justo sed, tristique luctus purus. Etiam vitae
-								   interdum felis, at laoreet massa. Proin malesuada tellus vel dui laoreet facilisis. Nullam ac leo semper, 
-								   gravida nisi quis, blandit ligula. Aenean venenatis, velit sit amet malesuada tincidunt, orci erat mollis
-								   sem, sit amet semper eros dolor in metus.
-								</p>
+								<h5 class="h5-xl"> <br> <br>5.1. Services et produits payants</h5>
+								<ul class="terms-list">
+									<li>Le membre a la possibilité de souscrire à des services spécifiques pour accéder à des fonctionnalités complémentaires.</li>
+									<li> Les prestations et formules offertes sont détaillées sur l’application ainsi que le prix et les modalités de paiement des différents services.</li>
+									<li> Les prix sont indiqués toutes taxes comprises.</li>
+								</ul>
 
 							</div>
 
@@ -499,18 +402,18 @@
 							<div class="terms-box">
 
 								<!-- Title -->
-								<h5 class="h5-xl">10. Third Party Beneficiary</h5>
+								<h5 class="h5-xl">5.2. Modalités de paiement</h5>
 								
-								<!-- Text -->
-								<p>Donec sodales, nibh vel tristique aliquet, nisi libero suscipit diam, sed tempus ante nulla ut purus.
-								   Donec dolor magna, suscipit in magna dignissim, porttitor hendrerit diam. Nunc gravida ultrices felis
-								</p>
-
-								<!-- Text -->
-								<p>Quisque eleifend arcu ac tellus cursus, nec vehicula diam tempus. Nam ut sapien et mi congue tincidunt.
-								   Phasellus in ex neque. Aenean sed nunc sed elit facilisis finibus elit. Nunc vehicula nunc sit
-								   amet libero porta, vel molestie quam cursus
-								</p>
+							<ul class="terms-list">
+								<li>Le paiement est effectué par l’intermédiaire d’un système sécurisé de paiement par carte bancaire.</li>
+								<li> Les cartes bancaires acceptées sont indiquées sur l’application.</li>
+								<li>Aucune donnée relative aux informations financières du membre ne transite sur l’application.</li>
+								<li> Les données relatives au paiement (n° de carte bancaire, n° de compte, identifiant de paiement) sont traitées directement par l’interface de paiement sécurisée.</li>
+								<li>Après avoir fourni les informations nécessaires à la réalisation de la transaction, et correspondant au produit et/ou au service choisi, le membre valide son 
+									paiement.</li>
+								<li> Le cas échéant, le membre reçoit après la validation du paiement un QR Code qui justifiera du paiement de la prestation ou du produit auprès du Partenaire 
+									responsable de l’exécution de la prestation ou de la livraison du produit.</li>
+							</ul>
 
 							</div>
 
@@ -519,23 +422,168 @@
 							<div class="terms-box">
 
 								<!-- Title -->
-								<h5 class="h5-xl">11. Claims Of Copyright Infringement</h5>
+								<h5 class="h5-xl">5.3 Droit de rétractation</h5>
 								
-								<!-- Text -->
-								<p>Mauris ut mi turpis. In laoreet dapibus metus et ornare. Vestibulum ante ipsum primis in faucibus orci
-								   luctus et ultrices posuere cubilia Curae; Sed semper tempor nunc, ut porttitor erat. Quisque facilisis
-								   rhoncus odio. Pellentesque rutrum congue nulla, vel vulputate eros maximus id. Praesent lacus elit, 
-								   ullamcorper ut lacus eu, eleifend suscipit est. Nullam pharetra ex eu dictum consectetur
-								</p>
+							<ul class="terms-list">
+								<li>Le membre a le droit de se rétracter sans donner de motif dans un délai de 14 jours à compter de sa commande, conformément à l’article L 221-18 du code de la
+									 consommation français.</li>
+								<li>Pour exercer ce droit de rétractation, le membre doit notifier à l’adresse suivante Deserve Mi 3 Avenue du Mont Alban 06300 Nice , ou par courrier électronique à 
+									<a href="mailto:miapplicationmobile@gmail.com" style="color:white">miapplicationmobile@gmail.com</a> , sa décision de rétractation du présent contrat au moyen d’une 
+									déclaration dénuée d’ambiguïté (lettre envoyée par la poste, courrier électronique).</li>
+								<li>Pour que le délai de rétractation soit respecté, il suffit que le membre transmette sa communication relative à l’exercice du droit de rétractation avant 
+									l’expiration du délai de rétractation.</li>
+								<li>En cas de rétractation, Deserve MI remboursera au membre tous les paiements reçus dans un délai de quatorze jours à compter du jour où Deserve MI est informé de la 
+									décision de rétractation.Deserve MI procédera au remboursement en utilisant le même moyen de paiement que celui que le membre a utilisé pour la transaction initiale, sauf en cas d’accord express sur un autre mode de remboursement.</li>
+								<li>Deserve MI peut différer le remboursement jusqu’à ce qu’elle ait reçu le bien ou jusqu’à ce que le membre ait fourni une preuve d’expédition du bien, la date retenue
+									 étant celle du premier de ces faits.</li>
+								<li>Le membre doit renvoyer ou rendre le bien, à Deserve MI sans retard excessif et, en tout état de cause, au plus tard quatorze jours après qu’il aura communiqué 
+									sa décision de rétractation. Ce délai est réputé respecté si le bien est renvoyé avant l’expiration du délai de quatorze jours.</li>
+								<li>Le produit retourné devra impérativement l’être dans son emballage d’origine, non descellés.</li>
+								<li>L’utilisation d’une prestation payante vaut demande expresse de débuter l’utilisation de ladite prestation payante avant l’expiration du délai de rétractation de 14 jours.
+									 Cette demande expresse laisse le membre libre de se rétracter pendant le délai de 14 jours, mais l’engage au règlement des services fournis jusqu’à la communication de sa décision de se rétracter, proportionnellement au prix total de la prestation convenue.</li>
+								<li>Conformément à l’article L 221-28, il est rappelé que le droit de rétractation ne peut pas être exercé pour les contrats : 
+									<ul class="terms-list" style="list-style-type:square">
+										<li> De fourniture de services pleinement exécutés avant la fin du délai de rétractation et dont l’exécution a commencé après accord préalable exprès
+											 du consommateur et renoncement exprès à son droit de rétractation ;</li>
+										<li> De fourniture de biens confectionnés selon les spécifications du consommateur ou nettement personnalisés ;</li>
+										<li>De fourniture de biens susceptibles de se détériorer ou de se périmer rapidement ;</li>
+										<li>De fourniture de biens qui ont été descellés par le consommateur après la livraison et qui ne peuvent être renvoyés pour des raisons d’hygiène 
+											ou de protection de la santé ;</li>
+										<li>De fourniture de biens qui, après avoir été livrés et de par leur nature, sont mélangés de manière indissociable avec d’autres articles ;</li>
+										<li>De prestations de services d’hébergement, autres que d’hébergement résidentiel, de services de transport de biens, de locations de voitures, 
+											de restauration ou d’activités de loisirs qui doivent être fournis à une date ou à une période déterminée ;</li>
+										<li>De fourniture d’un contenu numérique non fourni sur un support matériel dont l’exécution a commencé après accord préalable exprès du consommateur 
+											et renoncement exprès à son droit de rétractation.</li>
+									</ul>
+								</li>
 
-								<!-- Text -->
-								<p>Integer ac ante et diam posuere ultricies. Nunc tempus mauris id risus sodales lobortis. Pellentesque
-								   malesuada lectus dapibus ipsum porttitor rhoncus
-								</p>
 
+							</ul>
 
 							</div>
 
+							<div class="terms-box">
+								<h3 class="h3-sm">Article 6. Résiliation <br></h3>
+
+								<h5 class="h5-xl"><br> 6.1 Suspension / Résiliation pour faute du membre </h5>
+								<ul class="terms-list">
+									<li>En cas de manquement du membre à ses obligations, Deserve MI pourra suspendre ou résilier le contrat sans préavis et supprimer le compte du membre concerné, 
+										notamment en cas de manquement aux obligations décrites à l’article 3.1.</li>
+								</ul>
+							</div>
+							<div class="terms-box">
+
+								<h5 class="h5-xl"><br> 6.2 Résiliation du contrat </h5>
+								<ul class="terms-list">
+									<li>Le membre peut résilier le présent contrat à tout moment en utilisant le formulaire de contact présent sur l’application mobile.</li>
+								</ul>
+							</div>
+							<div class="terms-box">
+								<h3 class="h3-sm">Article 7 : Continuité du service<br></h3>
+
+								<ul class="terms-list">
+									<li>Le service Deserve MI est accessible en continu tous les jours de l’année et 24 heures sur 24, sous réserve des périodes de maintenance et des pannes 
+										éventuelles, des défaillances des réseaux de communications, des défaillances des propres fournisseurs du membre (fournisseurs d’accès, de messagerie,
+										 de téléphonie mobile). </li> 
+									<li>Deserve MI n’est pas responsable des dysfonctionnements techniques indépendants de sa volonté.</li>
+								</ul>
+							</div>
+							<div class="terms-box">
+								<h3 class="h3-sm">Articles 8 : Données personnelles<br></h3>
+
+								<h5 class="h5-xl"> <br> 8.1 Finalité du traitement</h5>
+
+								<ul class="terms-list">
+									<li>Les données personnelles recueillies font l’objet d’un traitement informatique qui a pour finalité la mise en relation et les rencontres entre adultes.</li> 
+									<li> Le renseignement des informations personnelles obligatoires pour l’ouverture du compte et la fourniture des produits et prestations sont indispensables
+										 pour l’utilisation du service et lafourniture desdits produits et prestations, ainsi que la gestion des relations commerciales avec le membre. 
+										 Certaines informations techniques peuvent être recueillies.</li>
+									<li>Les données relatives au contenu du profil sont fournies à titre facultatif par le membre.</li>
+									<li>Le traitement informatique relatif aux membres est réalisé conformément à la législation sur les données personnelles. Il a fait l’objet d’une déclaration 
+										auprès de la CNIL, Commission Nationale Informatique et Libertés</li>
+								</ul>
+							</div>
+							<div class="terms-box">
+								<h5 class="h5-xl">8.2 Données sensibles<br></h5>
+
+								<ul class="terms-list">
+									<li>Certaines informations que les membres peuvent fournir sont susceptibles de révéler ses croyances, son origine ethnique, ses orientations sexuelles.
+										 En fournissant de telles informations, le membre concerné manifeste son consentement explicite au traitement de ces données dites « sensibles » par
+										  Deserve MI.</li>
+								</ul>
+							</div>
+							<div class="terms-box">
+								<h5 class="h5-xl">8.3 Destinataires des données<br></h5>
+
+								<ul class="terms-list">
+									<li>Les données peuvent être transmises aux sociétés qui contribuent à l’exploitation du service. Ces informations et données sont également conservées à des 
+										fins de sécurité, afin de respecter les obligations légales et réglementaires et ainsi que pour permettre à Deserve MI d’améliorer et personnaliser son 
+										service. Elles ne sont pas cédées ou échangées à des fins commerciales.</li>
+									<li>Les données transmises au Partenaire pour la livraison d’un produit à un membre ne sont pas communiquées au membre ayant commandé et payé le produit et
+										 sont traitées de façon confidentielle.</li>
+								</ul>
+							</div>
+							<div class="terms-box">
+								<h5 class="h5-xl">8.4 Droit d’accès, de modification et de suppression<br></h5>
+
+								<ul class="terms-list">
+									<li>Le membre dispose d’un droit d’accès, de modification et de suppression des données qui le concernent. Pour exercer ce droit, il doit envoyer un mail à
+										 <a style="color:white" href="mailto:Miapplicationmobile@gmail.com">miapplicationmobile@gmail.com</a> ou écrire à Deserve Mi 3 Avenue du Mont Alban 06300 Nice
+										  avec un justificatif d’identité.</li>
+									<li>Le membre a également la possibilité modifier directement certaines informations qui le concernent dans la rubrique « Modifier mon compte ».</li>
+									<li>Enfin, conformément à l’article 40-1 de la loi Informatique et Libertés du 6 janvier 1978, modifiée en 2016, le membre pour exercer ce droit, doit envoyer un mail
+										 à <a style="color:white" href="mailto:Miapplicationmobile@gmail.com">miapplicationmobile@gmail.com</a> ou écrire à Deserve Mi 3 Avenue du Mont Alban 06300 Nice 
+										 avec un justificatif d’identité.</li>
+									</ul>
+								</div>
+								<div class="terms-box">
+									<h5 class="h5-xl">8.5 Géolocalisation<br></h5>
+
+								<ul class="terms-list">
+									<li>L’utilisation de la fonctionnalité de géolocalisation de l’application nécessite le consentement préalable express du membre à être géolocalisé. 
+										Pour cela le membre devra activer, s’il le souhaite, la fonction de géolocalisation directement dans les réglages de son terminal mobile et accepter 
+										que Deserve MI puisse y avoir recours. Cette fonctionnalité peut, à tout moment, et sans frais, être désactivée ou activée.</li>
+									<li>Grâce à l’acceptation de la fonction de géolocalisation le membre peut identifier les autres membres se trouvant dans le même périmètre géographique. 
+										Les données collectées sont les coordonnées géolocalisées (Longitude, Latitude), la ville, le pays et les données sont conservées pendant un an. 
+										Le membre peut à tout moment demander la suppression des données de localisation qui le concernent.</li>
+								</ul>
+
+							</div>
+								<div class="terms-box">
+									<h5 class="h5-xl">8.6 Durée de conservation<br></h5>
+
+								<ul class="terms-list">
+									<li>Les données nécessaires à la gestion du contrat du membre sont conservées jusqu’à l’expiration des délais de prescription.</li>
+									<li>Les données du profile sont supprimées à la résiliation du contrat.</li>
+									<li>Les données techniques telles que l’adresse IP sont conservées un an. Les profils inactifs sont supprimés après un délai de 6 mois.</li>	
+								</ul>
+
+							</div>
+								<div class="terms-box">
+									<h3 class="h3-sm">Article 9 : Propriété Intellectuelle <br></h3>
+
+								<ul class="terms-list">
+									<li>Le Site a été conçu par la société Deserve MI qui est propriétaire et titulaire de l’ensemble des droits y afférents.</li>
+									<li>Tous les éléments (tels que textes, vidéos, photographies) intégrés dans l’application sont la propriété de la société Deserve MI ou de tiers ayant autorisé 
+										Deserve MI à les utiliser.</li>
+									<li>Toute reproduction ou représentation de tout ou partie de l’application, sur quelque support que ce soit, est donc formellement interdite sans l’autorisation
+										 préalable la société Deserve Mi et constitue le délit de contrefaçon.</li>	
+								</ul>
+
+							</div>
+								<div class="terms-box">
+									<h3 class="h3-sm">Article 10: Réclamations. Règlement des litiges <br></h3>
+
+								<ul class="terms-list">
+									<li>Le présent contrat est soumis au droit français, et seule la langue française fait foi en cas de difficulté d’interprétation.</li>
+									<li>Le membre est invité à contacter le service client à l’email Miapplicationmobile@gmail.com en cas de réclamation.</li>
+									<li>Le membre est informé de la possibilité de recourir, en cas de contestation, à une procédure de médiation conventionnelle ou à tout autre mode alternatif de 
+										règlement des différends.</li>	
+									<li>Lorsque le membre ne réside pas en France, tout différend né des présentes conditions générales ou en relation avec celles-ci sera de la compétence exclusive
+										 du Tribunal dans le ressort duquel est situé le siège social de la société Deserve MI.</li>
+								</ul>
+
+							</div>
 
 						</div>	<!-- END TERMS CONTENT -->	
 
