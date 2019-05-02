@@ -45,6 +45,16 @@
     .mobile-hide{
       display: none;
     }
+    #img1{
+      width: 60%;
+    }
+    #img2{
+      width: 60%;
+      left: 5% !important;
+    }
+    #textAccueil{
+      left: -10%;
+    }
   }
   #img1
   {
@@ -942,7 +952,7 @@ span.id-color {
 .section-title p {
   color: white;
   padding: 0 15%;
-  margin-top: 20px;
+  /* margin-top: 20px; */
   margin-bottom: 0;
 }
 
@@ -1095,7 +1105,7 @@ span.id-color {
 /*------------------------------------------*/
 
 .navbar {
-  padding: 16px 0;
+  /* padding: 16px 0; */
   -webkit-transition: all 400ms ease-in-out;
   -moz-transition: all 400ms ease-in-out;
   -o-transition: all 400ms ease-in-out;
@@ -1104,7 +1114,7 @@ span.id-color {
 }
 
 .navbar.bg-tra {
-  padding: 40px 0;
+  /* padding: 40px 0; */
   background-color: transparent;  
 }
 
@@ -2827,6 +2837,7 @@ a.process-link:hover {
 .info-section .img-block {
   text-align: center;
   overflow: hidden;
+  top:-20%;
 }
 
 .info-5-img,
