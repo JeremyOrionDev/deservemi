@@ -35,6 +35,33 @@
     h2{
       color:red;
     }
+    #logo{
+     width: 50px !important;
+     left: -40%;
+     position: relative;
+    }
+    #tels{top: -5vh;position: relative;
+    }
+    #img1{
+      /* top: 20%; */
+      width: 80%;
+      /* opacity: 0.5; */
+    }
+    #img2{
+      /* opacity: 0.5; */
+      /* top: 20%; */
+      width: 80%;
+      left: -7%;
+    }
+    /* #textAccueil{   
+      position: relative;
+      
+    }
+    #tels{
+      display: block;
+      position: absolute;
+      top: 10%;
+    } */
     .mobile-hide{
       display: none;
     }

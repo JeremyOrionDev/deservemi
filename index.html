@@ -86,22 +86,22 @@
 
 			<!-- HEADER
 			============================================= -->
-			<header id="header" class="header col-sm-12">
-				<nav class="navbar col-sm-12 fixed-top navbar-expand-md hover-menu navbar-dark bg-tra white-scroll">
+			<header id="header" style="min-height:100px" class="header col-sm-12">
+				<nav class="navbar col-sm-12 fixed-top navbar-expand-md hover-menu navbar-light" style="opacity:0.8">
 					<div class="container">
 
 						<div class="clearfix container col">
 
 							<!-- LOGO IMAGE -->
 							<!-- For Retina Ready displays take a image with double the amount of pixels that your image will be displayed (e.g 240 x 60 pixels) -->
-							<a href="#hero-1" class="navbar-brand logo-black col"><img src="images/logo.png" alt="header-logo"></a>
+							<a href="#hero-1" id="logo" class="navbar-brand "><img src="images/Logo_App_Store_57.png" alt="header-logo"></a>
 							<!-- <a href="#hero-1" class="navbar-brand logo-white float-left"><img src="images/logo.png" alt="header-logo"></a> -->
 							   <!-- <h5 class="title scroll white-scroll col">Deserve MI</h5> -->
 						</div>
 
 				 		<!-- Responsive Menu Button -->
-				 		<button class="navbar-toggler col" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
-				   		 	<span class="navbar-bar-icon"><i class="fas fa-bars"></i></span>
+				 		<button class="navbar-toggler col" type="button" data-toggle="collapse"  data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+				   		 	<span class="navbar-bar-icon col-2 " style="left:30%;"><i class="fas fa-bars"></i></span>
 				  		</button>
 
 
@@ -144,8 +144,14 @@
 						
 				
 						<!-- TEXT BLOCK -->	
-						<div class="ml-5 container row">
-							<div class="txt-block pc-45 mb-40 mt-50 wow fadeInUp col col-sm-6 col-xs-12" data-wow-delay="0.3s">
+						<div class="ml-5 container  col-12">
+								<div id="tels" class="col col-xs-10">
+								
+										<img id="img1" class="img-fluid col-sm-10 " style="transform:rotate(10deg);display: block;left: 20%" src="images/accueil.png"  alt="accueil">
+										<img id="img2" class="img-fluid col-sm-10 " style="top:0;transform: rotate(-20deg);right: 20%;position:absolute" src="images/seduire.png"  alt="info-image">
+		
+									</div>
+							<div id="textAccueil" class="txt-block pc-45 mb-40 mt-50 wow fadeInUp col col-sm-6 col-xs-12" data-wow-delay="0.3s">
 
 								
 					 			
@@ -164,27 +170,23 @@
 
 									<li>Sauras-tu passer la compétition ?</li>
 								</ul>
-								<!-- AppStore Badge  -->
+								<div class=" row">
+									<!-- AppStore Badge  -->
+						
+										<a href="#" class="header-store col">
+											<img class="appstore-header" src="images/store_badges/appstore.png" alt="appstore-logo">
+										</a>
+									<!-- Google Play Badge -->
+									
+										<a href="#" class="header-store col">
+											<img class="googleplay-header " style="position:relative; right:20%" src="images/store_badges/googleplay.png" alt="googleplay-logo">
+										</a>
+							
+
+								</div>
+
+							</div>
 					
-									<a href="#" class="header-store">
-										<img class="appstore-header" src="images/store_badges/appstore.png" alt="appstore-logo">
-									</a>
-						
-															
-								<!-- Google Play Badge -->
-								
-									<a href="#" class="header-store">
-										<img class="googleplay-header" src="images/store_badges/googleplay.png" alt="googleplay-logo">
-									</a>
-						
-
-							</div>
-							<div class="col imgs col-xs-12">
-								
-								<img class="img-fluid img2 col-sm-10 " style="transform:rotate(10deg);display: block;left: 20%" src="images/accueil.png"  alt="accueil">
-								<img class="img-fluid img1 col-sm-10 " style="top:0;transform: rotate(-20deg);right: 20%;position:absolute" src="images/seduire.png"  alt="info-image">
-
-							</div>
 						</div>	  <!-- End row -->	
 				</div>     <!-- End container -->
 			</section>	<!-- END INFO-2 -->	
@@ -273,7 +275,7 @@
 	 						<div class="fbox-2 icon-sm wow fadeInUp" data-wow-delay="0.7s">
 
 	 							<!-- Icon  -->
-								<img width="40px" style="color:gray" src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDUxMiA1MTIiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDUxMiA1MTI7IiB4bWw6c3BhY2U9InByZXNlcnZlIiB3aWR0aD0iNTEycHgiIGhlaWdodD0iNTEycHgiPgo8Zz4KCTxnPgoJCTxwYXRoIGQ9Ik00OTkuMSwxODYuMjA1bC0yNS43NjUtMjIuMjY2Yy0zLjE5Ni0yLjc2NC04LjAyOS0yLjQxMS0xMC43OTIsMC43ODdjLTIuNzYzLDMuMTk3LTIuNDEyLDguMDI5LDAuNzg3LDEwLjc5MiAgICBsMjUuNzYzLDIyLjI2NmM5LjE4NCw3LjkzNywxMC4xOTgsMjEuODY2LDIuMjYyLDMxLjA1TDMyNC4wMDgsNDIyLjQ3Yy0yLjc2MywzLjE5Ny0yLjQxMiw4LjAyOSwwLjc4NiwxMC43OTMgICAgYzEuNDQ3LDEuMjUxLDMuMjI4LDEuODYzLDUsMS44NjNjMi4xNDcsMCw0LjI4LTAuODk4LDUuNzkzLTIuNjQ4TDUwMi45MzMsMjM4Ljg0QzUxNi4zODgsMjIzLjI3Miw1MTQuNjY4LDE5OS42NTksNDk5LjEsMTg2LjIwNXogICAgIiBmaWxsPSIjMDAwMDAwIi8+Cgk8L2c+CjwvZz4KPGc+Cgk8Zz4KCQk8cGF0aCBkPSJNNDUzLjc0MSwxNDcuMDAzTDMzNC41NTcsNDQuMDAyYy03LjU0Mi02LjUxOC0xNy4xNzItOS43MDUtMjcuMTEyLTguOTg1Yy05Ljk0MiwwLjcyMy0xOS4wMDYsNS4yNzYtMjUuNTI0LDEyLjgxNyAgICBsLTExLjM1NiwxMy4xNGMtMi43NjMsMy4xOTgtMi40MTIsOC4wMywwLjc4NiwxMC43OTNjMy4xOTksMi43NjUsOC4wMywyLjQxMSwxMC43OTMtMC43ODZsMTEuMzU2LTEzLjE0ICAgIGMzLjg0NS00LjQ0OCw5LjE5Mi03LjEzNCwxNS4wNTctNy41NjFjNS44NjUtMC40MzEsMTEuNTQ0LDEuNDU1LDE1Ljk5Myw1LjNsMTE5LjE4NCwxMDMuMDAxYzEuNDQ3LDEuMjUxLDMuMjI4LDEuODYzLDUsMS44NjMgICAgYzIuMTQ3LDAsNC4yOC0wLjg5OCw1Ljc5My0yLjY0OEM0NTcuMjg5LDE1NC41OTgsNDU2LjkzOCwxNDkuNzY2LDQ1My43NDEsMTQ3LjAwM3oiIGZpbGw9IiMwMDAwMDAiLz4KCTwvZz4KPC9nPgo8Zz4KCTxnPgoJCTxwYXRoIGQ9Ik0zODEuMDk5LDExOS45NTJMMTc0LjkxMSw1MC43OTRjLTE5LjUxMS02LjU0NC00MC43MDQsNC4wMDUtNDcuMjQ3LDIzLjUxM2wtMi43Miw4LjEwOSAgICBjLTEuMzQ0LDQuMDA2LDAuODE1LDguMzQ0LDQuODIyLDkuNjg4YzQuMDA3LDEuMzQ0LDguMzQzLTAuODE0LDkuNjg4LTQuODIybDIuNzItOC4xMDljMy44Ni0xMS41MDksMTYuMzYxLTE3LjczMiwyNy44NzEtMTMuODcxICAgIGwyMDYuMTg5LDY5LjE1N2MxMS41MDksMy44NjEsMTcuNzMxLDE2LjM2MywxMy44NzEsMjcuODcxbC05NS45MzMsMjg2LjAyYy0xLjM0NCw0LjAwNiwwLjgxNSw4LjM0Myw0LjgyMiw5LjY4OCAgICBjMC44MDcsMC4yNywxLjYyNywwLjM5OSwyLjQzNCwwLjM5OWMzLjE5OCwwLDYuMTgtMi4wMjEsNy4yNTQtNS4yMmw5NS45MzMtMjg2LjAxOSAgICBDNDExLjE1NywxNDcuNjkxLDQwMC42MDksMTI2LjQ5NSwzODEuMDk5LDExOS45NTJ6IiBmaWxsPSIjMDAwMDAwIi8+Cgk8L2c+CjwvZz4KPGc+Cgk8Zz4KCQk8cGF0aCBkPSJNMjU0Ljc5NSwxMDAuNzY5SDM3LjMxOEMxNi43NDEsMTAwLjc2OSwwLDExNy41MDksMCwxMzguMDg2djMwMS42NzljMCwyMC41NzcsMTYuNzQxLDM3LjMxOCwzNy4zMTgsMzcuMzE4aDIxNy40NzggICAgYzIwLjU3NywwLDM3LjMxOC0xNi43NDEsMzcuMzE4LTM3LjMxOFYxMzguMDg2QzI5Mi4xMTMsMTE3LjUwOSwyNzUuMzczLDEwMC43NjksMjU0Ljc5NSwxMDAuNzY5eiBNMjc2LjgwOSw0MzkuNzY1ICAgIGMwLDEyLjEzOS05Ljg3NiwyMi4wMTQtMjIuMDE0LDIyLjAxNEgzNy4zMThjLTEyLjEzOSwwLTIyLjAxNC05Ljg3Ni0yMi4wMTQtMjIuMDE0VjEzOC4wODZjMC0xMi4xMzksOS44NzYtMjIuMDE0LDIyLjAxNC0yMi4wMTQgICAgaDIxNy40NzhjMTIuMTM5LDAsMjIuMDE0LDkuODc2LDIyLjAxNCwyMi4wMTRWNDM5Ljc2NXoiIGZpbGw9IiMwMDAwMDAiLz4KCTwvZz4KPC9nPgo8Zz4KCTxnPgoJCTxwYXRoIGQ9Ik0yNTguNzc4LDMxMS45NkgzMy4zMzZjLTQuMjI2LDAtNy42NTIsMy40MjYtNy42NTIsNy42NTJjMCw0LjIyNiwzLjQyNiw3LjY1Miw3LjY1Miw3LjY1MmgyMjUuNDQzICAgIGM0LjIyNiwwLDcuNjUyLTMuNDI2LDcuNjUyLTcuNjUyQzI2Ni40MywzMTUuMzg2LDI2My4wMDQsMzExLjk2LDI1OC43NzgsMzExLjk2eiIgZmlsbD0iIzAwMDAwMCIvPgoJPC9nPgo8L2c+CjxnPgoJPGc+CgkJPHBhdGggZD0iTTIyMy4xMDYsMzU1LjcxOGgtOTQuNzU0Yy00LjIyNiwwLTcuNjUyLDMuNDI2LTcuNjUyLDcuNjUyYzAsNC4yMjYsMy40MjYsNy42NTIsNy42NTIsNy42NTJoOTQuNzU0ICAgIGM0LjIyNiwwLDcuNjUyLTMuNDI2LDcuNjUyLTcuNjUyQzIzMC43NTgsMzU5LjE0NCwyMjcuMzMyLDM1NS43MTgsMjIzLjEwNiwzNTUuNzE4eiIgZmlsbD0iIzAwMDAwMCIvPgoJPC9nPgo8L2c+CjxnPgoJPGc+CgkJPHBhdGggZD0iTTEwMi44NDUsMzU1LjcxOEg2OS4wMDZjLTQuMjI2LDAtNy42NTIsMy40MjYtNy42NTIsNy42NTJjMCw0LjIyNiwzLjQyNiw3LjY1Miw3LjY1Miw3LjY1MmgzMy44MzkgICAgYzQuMjI2LDAsNy42NTItMy40MjYsNy42NTItNy42NTJDMTEwLjQ5NywzNTkuMTQ0LDEwNy4wNzEsMzU1LjcxOCwxMDIuODQ1LDM1NS43MTh6IiBmaWxsPSIjMDAwMDAwIi8+Cgk8L2c+CjwvZz4KPGc+Cgk8Zz4KCQk8cGF0aCBkPSJNMjIzLjEwNiwzODQuOTY5aC0xNTQuMWMtNC4yMjYsMC03LjY1MiwzLjQyNi03LjY1Miw3LjY1MmMwLDQuMjI2LDMuNDI2LDcuNjUyLDcuNjUyLDcuNjUyaDE1NC4xICAgIGM0LjIyNiwwLDcuNjUyLTMuNDI2LDcuNjUyLTcuNjUyQzIzMC43NTgsMzg4LjM5NCwyMjcuMzMyLDM4NC45NjksMjIzLjEwNiwzODQuOTY5eiIgZmlsbD0iIzAwMDAwMCIvPgoJPC9nPgo8L2c+CjxnPgoJPGc+CgkJPHBhdGggZD0iTTIyMy4xMDYsNDE0LjIxOWgtMTU0LjFjLTQuMjI2LDAtNy42NTIsMy40MjYtNy42NTIsNy42NTJjMCw0LjIyNiwzLjQyNiw3LjY1Miw3LjY1Miw3LjY1MmgxNTQuMSAgICBjNC4yMjYsMCw3LjY1Mi0zLjQyNiw3LjY1Mi03LjY1MkMyMzAuNzU4LDQxNy42NDUsMjI3LjMzMiw0MTQuMjE5LDIyMy4xMDYsNDE0LjIxOXoiIGZpbGw9IiMwMDAwMDAiLz4KCTwvZz4KPC9nPgo8Zz4KCTxnPgoJCTxwYXRoIGQ9Ik0yMzAuMTU2LDE4OS41NTJjLTAuOS0yLjc3LTMuMjk0LTQuNzg5LTYuMTc2LTUuMjA3bC00OS4xMDMtNy4xMzVsLTIxLjk1OS00NC40OTVjLTEuMjktMi42MTItMy45NDktNC4yNjYtNi44NjItNC4yNjYgICAgYy0yLjkxMiwwLTUuNTcyLDEuNjU0LTYuODYyLDQuMjY2bC0yMS45Niw0NC40OTVsLTQ5LjEwMyw3LjEzNWMtMi44ODIsMC40MTgtNS4yNzcsMi40MzctNi4xNzYsNS4yMDcgICAgYy0wLjksMi43Ny0wLjE0OSw1LjgxLDEuOTM2LDcuODQzbDM1LjUzMiwzNC42MzRsLTguMzg4LDQ4LjkwNmMtMC40OTIsMi44NywwLjY4OCw1Ljc3MSwzLjA0NCw3LjQ4MyAgICBjMS4zMzMsMC45NjgsMi45MTIsMS40NjEsNC40OTgsMS40NjFjMS4yMTcsMCwyLjQ0LTAuMjkxLDMuNTYtMC44NzhsNDMuOTE5LTIzLjA5MWw0My45MTksMjMuMDkxICAgIGMyLjU3OCwxLjM1NSw1LjcwMiwxLjEyOSw4LjA1OC0wLjU4M2MyLjM1Ny0xLjcxMiwzLjUzNi00LjYxMywzLjA0NC03LjQ4M2wtOC4zODgtNDguOTA2bDM1LjUzMS0zNC42MzQgICAgQzIzMC4zMDUsMTk1LjM2MiwyMzEuMDU2LDE5Mi4zMjIsMjMwLjE1NiwxODkuNTUyeiBNMTc5LjEyNywyMjMuODc5Yy0xLjgwNCwxLjc1OC0yLjYyNyw0LjI5MS0yLjIwMSw2Ljc3M2w2LjQ0NywzNy41ODkgICAgbC0zMy43NTctMTcuNzQ4Yy0yLjIzLTEuMTcxLTQuODkzLTEuMTcxLTcuMTIxLDBsLTMzLjc1NywxNy43NDhsNi40NDctMzcuNTg5YzAuNDI1LTIuNDgyLTAuMzk3LTUuMDE1LTIuMjAxLTYuNzczbC0yNy4zMDktMjYuNjIgICAgbDM3Ljc0MS01LjQ4NWMyLjQ5Mi0wLjM2Miw0LjY0Ni0xLjkyNyw1Ljc2MS00LjE4NmwxNi44NzgtMzQuMmwxNi44NzgsMzQuMmMxLjExNCwyLjI1OCwzLjI2OSwzLjgyNCw1Ljc2MSw0LjE4NmwzNy43NDIsNS40ODUgICAgTDE3OS4xMjcsMjIzLjg3OXoiIGZpbGw9IiMwMDAwMDAiLz4KCTwvZz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8L3N2Zz4K" />
+								<span class="grey-color flaticon-048-responsive"></span>
 
 								<!-- Text -->
 								<div class="fbox-2-txt">
