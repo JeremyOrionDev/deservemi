@@ -10,6 +10,7 @@
   #textAccueil{
     font-style: italic;
     width: 80% !important;
+    top: 5%;
   }
   #owl-images .owl-item img{
     display: inline-block;
@@ -794,7 +795,7 @@ a.store {
 .footer-stores-badge a.store {
   display: block;
   margin-right: 0;
-  margin-bottom: 14px;
+  /* margin-bottom: 14px; */
 }
 
 a.store:last-child {
@@ -4655,7 +4656,7 @@ a.share-ico.ico-google-plus { background-color: #cd1111; color: #fff; }
 #footer-1 .footer-links,
 #footer-2 .footer-links,
 #footer-5 .footer-links {
-  margin-bottom: 40px;
+  /* margin-bottom: 40px; */
   padding-left: 10%;
 }
 
@@ -4668,14 +4669,14 @@ a.share-ico.ico-google-plus { background-color: #cd1111; color: #fff; }
 }
 
 .footer-socials-links h5 {
-  margin-bottom: 15px;
+  /* margin-bottom: 15px; */
 }
 
 .footer h3.h3-xs {
   font-weight: 300;
   letter-spacing: -1px;
-  margin-top: 35px;
-  margin-bottom: 10px;
+  /* margin-top: 35px; */
+  /* margin-bottom: 10px; */
 }
 
 .footer h3.h3-xs span {
@@ -4683,11 +4684,11 @@ a.share-ico.ico-google-plus { background-color: #cd1111; color: #fff; }
 }
 
 #footer-1 .footer-info {
-  padding-right: 5%;
+  /* padding-right: 5%; */
 }
 
 .footer p.p-lg {
-  margin-bottom: 40px;
+  /* margin-bottom: 40px; */
 }
 
 /*------------------------------------------*/
@@ -4783,7 +4784,7 @@ a.share-ico.ico-google-plus { background-color: #cd1111; color: #fff; }
 .bottom-footer {
   border-top: 1px solid #ddd;
   margin-top: 5px;
-  padding-top: 40px;
+  /* padding-top: 40px; */
 }
 
 .bg-darkviolet .bottom-footer {
