@@ -218,8 +218,11 @@
       $('.owl-carousel').owlCarousel({
         autoplay:true,
 				loop:true,
-				autowidth:true,
-				items:7,
+				autowidth:false,
+				dots:true,
+				centerMode:true,
+				slidesToShow:4,
+				singleItem:false,
 				nav:true,
 				responsiveClass:true,
 				responsive:{

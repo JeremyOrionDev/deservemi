@@ -31,6 +31,9 @@
     -moz-border-radius: 3px;
     border-radius: 3px;
   }
+  .centered{
+    margin: auto;
+  }
   @media screen and (max-width: 640px){
     h2{
       color:red;
