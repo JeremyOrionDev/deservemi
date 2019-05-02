@@ -9,6 +9,7 @@
   }
   #textAccueil{
     font-style: italic;
+    width: 80% !important;
   }
   #owl-images .owl-item img{
     display: inline-block;
@@ -22,6 +23,12 @@
   }
   .centered{
     margin: auto;
+  }
+  @media screen and(min-width:1500px){
+    #img1{
+      background-color: #00a9ed;
+      margin-left: 50%;
+    }
   }
   @media screen and (max-width: 640px){
     h2{
@@ -39,15 +46,14 @@
       display: none;
     }
   }
+  #img1
+  {
+    transform:rotate(10deg);display: block;left: 30% !important;
+  }
+  #img2{
+    transform:rotate(-20deg);display: block;left:-20%;
+  }
 /*   
-.img1
-{
-  transform:  rotate( 10deg);
-  z-index: 10;
-  right: -5%;
-  width: 60%;
-  top: -5%;
-}
 .img2{
   transform:  rotate( -20deg);
   z-index: 10;
