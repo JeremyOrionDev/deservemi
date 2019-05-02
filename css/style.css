@@ -1,18 +1,4 @@
 
-
-
-
-/*
-  Template Name: NextApp - App Landing Page Template
-  Theme URL: https://themeforest.net/user/dsathemes
-  Description: NextApp - App Landing Page Template
-  Author: DSAThemes
-  Author URL: https://themeforest.net/user/dsathemes
-  Version: 1.1.0
-  Website: www.dsathemes.com
-  Tags: Responsive, HTML5 template, DSAThemes, Mobile, Application, One Page, Landing, Product, Mobile App
-*/
-
 /* ===========================================================================
   IMAGES
   =========================================================================== */ 
@@ -20,6 +6,9 @@
     /* padding:5px; */
     margin: none;
     padding: none;
+  }
+  #textAccueil{
+    font-style: italic;
   }
   #owl-images .owl-item img{
     display: inline-block;
@@ -45,26 +34,7 @@
     }
     #tels{top: -5vh;position: relative;
     }
-    #img1{
-      /* top: 20%; */
-      width: 80%;
-      /* opacity: 0.5; */
-    }
-    #img2{
-      /* opacity: 0.5; */
-      /* top: 20%; */
-      width: 80%;
-      left: -7%;
-    }
-    /* #textAccueil{   
-      position: relative;
-      
-    }
-    #tels{
-      display: block;
-      position: absolute;
-      top: 10%;
-    } */
+   
     .mobile-hide{
       display: none;
     }
