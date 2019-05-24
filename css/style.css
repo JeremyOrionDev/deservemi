@@ -25,6 +25,10 @@
   .centered{
     margin: auto;
   }
+
+  #stores{
+    position: relative;top: -100px;left: 50%; display:inline-block;
+  }
   @media screen and(min-width:1500px){
     #img1{
       background-color: #00a9ed;
@@ -55,6 +59,16 @@
     }
     #textAccueil{
       left: -10%;
+    }
+    #stores{
+      /* background-color: #00a9ed; */
+      left: 0;
+      top: 40%;
+      margin-top: 10%;
+      position: relative;
+    }
+    .stores-logo{
+      width: 70%;
     }
   }
   #img1
