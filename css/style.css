@@ -1259,7 +1259,7 @@ span.id-color {
     color: #333 !important;
 }
 
-.header-store img.appstore-header { width: 134px; height: 40px; }
+.header-store img.appstore-header { width: 500; height: 40px; }
 .header-store img.googleplay-header { width: 134px; height: 40px; }
 
 /*------------------------------------------*/
