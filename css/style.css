@@ -36,6 +36,9 @@
     }
   }
   @media screen and (max-width: 640px){
+    .text-left{
+      width: 80%;
+    }
     h2{
       color:red;
     }
